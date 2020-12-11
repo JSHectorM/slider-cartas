@@ -1,0 +1,71 @@
+main 
+{
+    background-color: #EDAE49;
+    h2
+    {
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .desc
+    {
+        padding: 30px;
+        p
+        {
+            font-size: 30px;
+            text-align: justify;
+            line-height: 50px;
+            .taller
+            {
+                color: #30638E;
+            }
+            .nombre
+            {
+                color: #00798C;
+            }
+            .pilares
+            {
+                color: #30638E;
+            }
+        }
+    }
+    .slider
+    {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        h2 {
+            padding: 20px 0px;
+        }
+        img
+        {
+            width: 100%;
+            max-width: 1200px;
+        }
+        .contenedor-slider
+        {
+            .img-slider
+            {
+                display: none;
+            }
+        }
+        .controles
+        {
+            margin: 10px;
+            button
+            {
+                background-color: #00798C;
+                color: #fff;
+                margin: 0px 30px;
+                padding: 15px;
+                font-size: 30px;
+                border: 1px solid rgba($color: #fff, $alpha: 0.0);
+                
+                &:active
+                {
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
+}

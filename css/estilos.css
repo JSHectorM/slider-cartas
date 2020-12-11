@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  background: #333333;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#dd1818), to(#333333));
+  background: linear-gradient(to bottom, #dd1818, #333333);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.contenedor {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  background-color: #D1495B;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  margin: 20px 40px;
+  padding: 15px;
+  font-size: 30px;
+}
+
+header nav a:hover {
+  background-color: #003D5B;
+  border-radius: 5px;
+}
+
+header .titulo {
+  background-color: #00798C;
+  text-align: center;
+}
+
+header .titulo .titulo-text {
+  font-size: 60px;
+  padding: 30px;
+}
+
+main {
+  background-color: #EDAE49;
+}
+
+main h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+main .desc {
+  padding: 30px;
+}
+
+main .desc p {
+  font-size: 30px;
+  text-align: justify;
+  line-height: 50px;
+}
+
+main .desc p .taller {
+  color: #30638E;
+}
+
+main .desc p .nombre {
+  color: #00798C;
+}
+
+main .desc p .pilares {
+  color: #30638E;
+}
+
+main .slider {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+main .slider h2 {
+  padding: 20px 0px;
+}
+
+main .slider img {
+  width: 100%;
+  max-width: 1200px;
+}
+
+main .slider .contenedor-slider .img-slider {
+  display: none;
+}
+
+main .slider .controles {
+  margin: 10px;
+}
+
+main .slider .controles button {
+  background-color: #00798C;
+  color: #fff;
+  margin: 0px 30px;
+  padding: 15px;
+  font-size: 30px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+main .slider .controles button:active {
+  border: 1px solid #fff;
+}
+
+footer {
+  background-color: #003D5B;
+  color: #fff;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .autor p {
+  padding-bottom: 20px;
+}
+
+footer .redes-sociales a {
+  color: #fff;
+  font-size: 40px;
+  display: inline-block;
+  margin: 0px 20px;
+}
+/*# sourceMappingURL=estilos.css.map */

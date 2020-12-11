@@ -1,0 +1,26 @@
+footer
+{
+    background-color: #003D5B;
+    color: #fff;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    .autor
+    {
+        p
+        {
+            // display: inline-block;
+            padding-bottom: 20px;
+        }
+    }
+    .redes-sociales
+    {
+        a
+        {
+            color: #fff;
+            font-size: 40px;
+            display: inline-block;
+            margin: 0px 20px;
+        }
+    }
+}
